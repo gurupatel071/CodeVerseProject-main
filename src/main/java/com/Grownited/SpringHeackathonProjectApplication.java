@@ -26,9 +26,9 @@ public class SpringHeackathonProjectApplication {
 	@Bean
 	Cloudinary getCloudinary() {
 		Map<String, String> config = new HashMap<>();
-		config.put("cloud_name", "dvtnpeicq");
-		config.put("api_key", "331986798868786");
-		config.put("api_secret", "Rg5HzqEFUgnkVKyW62jVeqNx1l0");
+		config.put("cloud_name", "djt9utyoa");
+		config.put("api_key", "514661749946225");
+		config.put("api_secret", "qad_EinOxEf0geeITyT7rOTgSDE");
 		return new Cloudinary(config);
 	}
 	
